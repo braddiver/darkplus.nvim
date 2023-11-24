@@ -26,7 +26,7 @@ local colors = {
 	--   cursor_fg = "#515052",
 	-- =======
 	accent = "#BBBBBB",
-	blue = "#5e81ac",
+	blue = "#2b98e0",
 	dark_gray = "#3e3e3e",
 	fg = light_gray2,
 	context = "#606060",
