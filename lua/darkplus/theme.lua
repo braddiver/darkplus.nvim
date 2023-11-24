@@ -64,7 +64,7 @@ theme.set_highlights = function()
 	hl(0, "TabLineFill", { fg = c.line, bg = c.line })
 
 	-- Code
-	hl(0, "Comment", { fg = c.context, bg = "NONE" })
+	hl(0, "Comment", { fg = c.comment_gray, bg = "NONE" })
 	hl(0, "Variable", { fg = c.alt_fg, bg = "NONE" })
 	hl(0, "String", { fg = c.orange, bg = "NONE" })
 	hl(0, "Character", { fg = c.orange, bg = "NONE" })
@@ -105,7 +105,7 @@ theme.set_highlights = function()
 	hl(0, "Special", { fg = c.orange, bg = "NONE" })
 
 	-- Treesitter
-	hl(0, "@comment", { fg = c.gray, bg = "NONE" })
+	hl(0, "@comment", { fg = c.comment_gray, bg = "NONE" })
 	hl(0, "@none", { fg = "NONE", bg = "NONE" })
 	hl(0, "@preproc", { link = "PreProc" })
 	hl(0, "@define", { link = "Define" })
@@ -296,8 +296,8 @@ theme.set_highlights = function()
 	hl(0, "IlluminatedWordRead", { link = "LspReferenceRead" })
 	hl(0, "IlluminatedWordText", { link = "LspReferenceText" })
 	hl(0, "IlluminatedWordWrite", { link = "LspReferenceWrite" })
-	hl(0, "LspCodeLens", { fg = c.context, bg = "NONE", italic = true })
-	hl(0, "LspCodeLensSeparator", { fg = c.context, bg = "NONE", italic = true })
+	hl(0, "LspCodeLens", { fg = c.comment_gray, bg = "NONE", italic = true })
+	hl(0, "LspCodeLensSeparator", { fg = c.comment_gray, bg = "NONE", italic = true })
 
 	-- Quickscope
 	hl(0, "QuickScopePrimary", { fg = "#ff007c", bg = "NONE", underline = true })
@@ -318,7 +318,7 @@ theme.set_highlights = function()
 
 	-- NvimTree
 	hl(0, "NvimTreeFolderIcon", { link = "Directory" })
-	hl(0, "NvimTreeIndentMarker", { fg = c.context, bg = "NONE" })
+	hl(0, "NvimTreeIndentMarker", { fg = c.comment_gray, bg = "NONE" })
 	hl(0, "NvimTreeNormal", { fg = c.fg, bg = c.alt_bg })
 	hl(0, "NvimTreeVertSplit", { fg = c.alt_bg, bg = c.alt_bg })
 	hl(0, "NvimTreeWinSeparator", { fg = c.alt_bg, bg = c.alt_bg })
@@ -364,14 +364,14 @@ theme.set_highlights = function()
 	hl(0, "BufferInactiveTarget", { fg = c.red, bg = c.alt_bg, bold = true })
 
 	-- StatusLine
-	hl(0, "StatusLine", { fg = c.context, bg = c.alt_bg })
+	hl(0, "StatusLine", { fg = c.comment_gray, bg = c.alt_bg })
 	hl(0, "StatusLineNC", { fg = c.line, bg = c.bg })
 	hl(0, "StatusLineSeparator", { fg = c.line, bg = "NONE" })
 	hl(0, "StatusLineTerm", { fg = c.line, bg = "NONE" })
 	hl(0, "StatusLineTermNC", { fg = c.line, bg = "NONE" })
 
 	-- IndentBlankline
-	hl(0, "IndentBlanklineContextChar", { fg = c.context, bg = "NONE" })
+	hl(0, "IndentBlanklineContextChar", { fg = c.comment_gray, bg = "NONE" })
 	hl(0, "IndentBlanklineContextStart", { fg = "NONE", bg = "NONE", underline = true })
 	hl(0, "IndentBlanklineChar", { fg = c.dark_gray, bg = "NONE" })
 
@@ -460,7 +460,7 @@ theme.set_highlights = function()
 	hl(0, "NavicIconsOperator", { link = "CmpItemKindOperator" })
 	hl(0, "NavicIconsTypeParameter", { link = "CmpItemKindTypeParameter" })
 	hl(0, "NavicText", { fg = c.gray, bg = "NONE" })
-	hl(0, "NavicSeparator", { fg = c.context, bg = "NONE" })
+	hl(0, "NavicSeparator", { fg = c.comment_gray, bg = "NONE" })
 
 	-- Packer
 	hl(0, "packerString", { fg = c.ui_orange, bg = "NONE" })
