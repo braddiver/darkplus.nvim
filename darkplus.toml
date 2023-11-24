@@ -126,7 +126,7 @@ TabLineFill = 'line line'
 
 [Code]
 Comment = 'context'
-Variable = 'light_blue'
+Variable = 'light_gray'
 String = 'orange'
 Character = 'orange'
 Number = 'light_green'
