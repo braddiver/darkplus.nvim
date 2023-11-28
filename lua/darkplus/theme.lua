@@ -537,8 +537,8 @@ theme.set_highlights = function()
 	hl(0, "NeogitHunkHeaderHighlight", { fg = c.alt_fg, bg = c.dark_gray })
 	--   NeogitDiffAdd = { bg = palette.line_green, fg = palette.bg_green },
 	-- hl(0, "NeogitDiffAdd", { fg = c.white, bg = c.green })
-	hl(0, "NeogitDiffAdd", { fg = c.green, bg = "NONE" })
-	hl(0, "NeogitDiffAddHighlight", { fg = c.green, bg = "NONE" })
+	hl(0, "NeogitDiffAdd", { fg = c.medium_green, bg = "NONE" })
+	hl(0, "NeogitDiffAddHighlight", { fg = c.medium_green, bg = "NONE" })
 	--   NeogitDiffAddHighlight = { bg = palette.line_green, fg = palette.green },
 	--   NeogitDiffDelete = { bg = palette.line_red, fg = palette.bg_red },
 	--   NeogitDiffDeleteHighlight = { bg = palette.line_red, fg = palette.red },
