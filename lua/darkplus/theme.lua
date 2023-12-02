@@ -1,3 +1,6 @@
+-- Run this to get applied highlight colors:
+-- :so $VIMRUNTIME/syntax/hitest.vim
+
 local c = require("darkplus.palette")
 
 local hl = vim.api.nvim_set_hl
