@@ -381,10 +381,10 @@ theme.set_highlights = function()
 
 	-- DiffView
 	hl(0, "DiffText", { fg = c.white, bg = c.sign_change })
-	hl(0, "DiffAdd", { fg = c.medium_green, bg = "NONE" })
+	hl(0, "DiffAdd", { fg = c.white, bg = c.sign_change })
 	hl(0, "DiffChange", { fg = "NONE", bg = "NONE" })
 	-- And GitSigns popup
-	hl(0, "DiffDelete", { fg = c.sign_delete, bg = "NONE" })
+	hl(0, "DiffDelete", { fg = c.gray, bg = "NONE" })
 	-- DiffView (but where?)
 	hl(0, "DiffViewNormal", { fg = c.gray, bg = c.alt_bg })
 	hl(0, "DiffviewStatusAdded", { fg = c.medium_green, bg = "NONE" })
