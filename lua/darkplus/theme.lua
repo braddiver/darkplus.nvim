@@ -1,12 +1,14 @@
--- Run this to get applied highlight colors:
--- :so $VIMRUNTIME/syntax/hitest.vim
-
 local c = require("darkplus.palette")
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
 
 theme.set_highlights = function()
+	-- Errors
+	hl(0, "NvimInternalError", { fg = c.red, bg = "None" })
+	hl(0, "NvimFigureBrace", { fg = c.red, bg = "None" })
+	hl(0, "NvimSingleQuotedUnknownEscape", { fg = c.red, bg = "None" })
+	hl(0, "NvimInvalidSingleQuotedUnknownEscape", { fg = c.red, bg = "None" })
 	-- Editor
 	hl(0, "Normal", { fg = c.fg, bg = c.bg })
 	hl(0, "SignColumn", { fg = "NONE", bg = c.bg })
