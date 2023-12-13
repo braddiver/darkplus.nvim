@@ -540,7 +540,7 @@ theme.set_highlights = function()
 	--   NeogitHunkHeader = { fg = palette.bg0, bg = palette.grey, bold = true },
 	--   NeogitHunkHeaderHighlight = { fg = palette.bg0, bg = palette.md_purple, bold = true },
 	--   NeogitDiffContext = { bg = palette.bg1 },
-	--   NeogitDiffContextHighlight = { bg = palette.bg2 },
+	hl(0, "NeogitDiffContextHighlight", { fg = c.alt_fg, bg = "None" })
 	hl(0, "NeogitHunkHeader", { fg = c.alt_fg, bg = c.dark_gray })
 	hl(0, "NeogitHunkHeaderHighlight", { fg = c.alt_fg, bg = c.dark_gray })
 	--   NeogitDiffAdd = { bg = palette.line_green, fg = palette.bg_green },
