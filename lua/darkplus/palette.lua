@@ -44,6 +44,7 @@ local colors = {
 	tree_sign_add = "#73C991",
 	tree_sign_change = "#CCA700",
 	error_red = "#F44747",
+	error = "#c46868",
 	warning_orange = "#ff8800",
 	info_yellow = "#FFCC66",
 	hint_blue = "#4FC1FF",
